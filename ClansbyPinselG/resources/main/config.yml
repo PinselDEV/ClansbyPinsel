@@ -1,0 +1,6 @@
+clan:
+  default-member-slots: 5
+  slot-upgrade:
+    enabled: true
+    add-per-purchase: 1
+    price: 2000

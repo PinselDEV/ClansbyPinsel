@@ -1,0 +1,20 @@
+name: ClansbyPinsel
+version: 1.0.0
+main: de.trist.clans.ClansbyPinsel
+api-version: "1.20"
+author: Trist
+description: Clan System mit GUI, PlaceholderAPI, TAB/Scoreboard Support, Vault Slot-Kauf und Admin Tools.
+
+depend: [Vault]
+softdepend: [PlaceholderAPI, LuckPerms]
+
+commands:
+  clan:
+    description: Clan System
+    usage: /clan
+    aliases: [clans]
+
+permissions:
+  clan.admin:
+    description: Zugriff auf /clan admin und Admin-Funktionen
+    default: op
